@@ -1,0 +1,19 @@
+<h3>正在进行<span>{{data.length}}</span></h3> 
+
+<ul>
+  <li *ngFor='let item of data;let i=index'>
+    <input type="checkbox" (click)='change(i)'>
+    {{item}}
+    <button (click)='delete(i)'>删除</button>
+  </li>
+</ul> 
+
+<h3>已经完成<span>{{data1.length}}</span></h3>
+
+<ul>
+    <li *ngFor='let item of data1;let i=index'>
+      <input type='checkbox' checked>
+      {{item}}
+      <button (click)='delete1(i)'>删除</button>
+    </li>
+</ul> 
