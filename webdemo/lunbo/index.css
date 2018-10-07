@@ -1,0 +1,27 @@
+.buttom{
+	margin:0 auto;
+	width:1180px;
+	height:397px;
+	overflow:hidden;
+	position:relative;
+}
+.bo{
+	width:1002px;
+	height:73px;
+	position:absolute;
+	bottom:0;
+	left:89px;
+}
+.bo span{
+	color:white;
+	cursor:pointer;
+	font-size:30px;
+	line-height:73px;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+}
+#next{
+	margin-left:800px;
+	float:right; 
+}
