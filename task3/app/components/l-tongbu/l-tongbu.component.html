@@ -1,0 +1,22 @@
+<div id="ltongbu">
+  <div id="top">
+      <span>我加入的</span>
+      <input id='txt' type='text' value='输入同步课名称搜索'>
+      <input id='button' type='txt'>
+  </div>
+  <hr/>
+  <div id='buttom'>
+      <ul>
+          <li *ngFor="let courses of coursess">
+            <a [routerLink]="['/tongbu',courses.id]">
+            <img src='{{courses.images}}' alt="">
+            <h3>{{courses.courseName}}</h3>
+            <div>
+              <span>{{courses.task}}</span>
+              <span>{{courses.person}}</span>
+          </div>
+          </a>
+          </li>
+        </ul>
+  </div>
+</div>

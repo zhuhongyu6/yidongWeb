@@ -1,0 +1,65 @@
+<!-- <h3 [innerHTML]='txt'></h3>
+<button (keydown)='fun($event)' *ngIf='20>10'>点击</button>
+<input type='text' [(ngModel)]='txt'>
+<ul>
+  <li *ngFor='let item of arr;let i=index;'>
+    <input type='checkbox'>这是第{{item}}个，下标是{{i}}
+    <button (click)='del(i)'>删除</button>
+
+  </li>
+</ul> -->
+
+
+
+<!-- 1.写输入框标签，绑定事件-->
+<!-- <input type='text' [(ngModel)]='txt' (keydown)='getValue($event)'>
+<h3>正在进行<span>{{arr.length}}</span></h3> -->
+<!-- 2.写入待办事项 -->
+<!-- <ul>
+  <li *ngFor='let item of arr;let i=index'>
+    <input type="checkbox">
+    {{item}}
+    <!-- 3.删除按钮绑定点击事件 -->
+    <!-- <button (click)='delete(i)'>删除</button>
+  </li> -->
+<!-- </ul> 
+<h3>已经完成<span>{{arr1.length}}</span></h3>
+<ul>
+    <li *ngFor='let item of arr1;let i=index'>
+      <input (click)='change(i)' type='checkebox' checked>
+      {{item}}
+      <button (click)='delete(i)'>删除</button>
+    </li>
+</ul>  -->
+
+
+<!-- 1.写输入框标签，绑定事件
+<input type='text' [(ngModel)]='txt' (keydown)='getValue($event)'>
+<h3>正在进行<span>{{arr.length=counter}}</span></h3>
+ 2.写入待办事项呈现列表-->
+<!-- <ul>
+  <ng-container *ngFor='let item of arr;let i=index'> 用ng-container当内容没了标签就没了 -->
+    <!-- <li *ngIf='!item.done'>
+      <input type="checkbox" (click)='change(i)'>
+      {{item.title}}
+       3.删除按钮绑定点击事件-->
+      <!-- <button (click)='delete(i)'>删除</button>
+    </li> --> 
+<!-- </ng-container>
+</ul> 
+<h3>已经完成<span>{{counter}}</span></h3>
+<ul>
+    <ng-container *ngFor='let item of arr;let i=index'> 
+        <li *ngIf='item.done'>
+          <input checked (click)='change(i)' type='checkbox'>
+          {{item.title}}
+          <button (click)='delete(i)'>删除</button>
+        </li>
+  </ng-container>
+</ul>   -->
+<!-- <app-parent></app-parent> -->
+
+<!-- 显示路由生成的视图的元素 -->
+
+<app-header></app-header>
+<router-outlet></router-outlet>
