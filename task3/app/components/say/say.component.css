@@ -1,0 +1,14 @@
+#say{
+    margin-left:350px;
+    margin-top:25px;
+    border:1px solid gainsboro;
+    width:750px;
+    height:430px;
+    border-radius:2px;
+}
+#say img{
+    margin-left:15px;
+    margin-top:15px;
+    width:700px;
+    height:390px;
+}
