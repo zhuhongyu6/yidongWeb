@@ -1,0 +1,42 @@
+#task{
+    margin-left:350px;
+    margin-top:25px;
+    border:1px solid gainsboro;
+    width:750px;
+    height:430px;
+    border-radius:2px;
+}
+hr{
+    width:700px;
+    margin:5px auto;
+}
+ul{
+    margin-top:50px;
+}
+ul img{
+    width:13px;
+    height:13px;
+}
+ul li{
+    float:left;
+    margin-left:40px;
+}
+#li1{
+    color:orangered;
+}
+#txt{
+    margin-left:221px;
+    border-radius:2px;
+    width:160px;
+    height:28px;
+}
+#button{
+    width:32px;
+    height:29px;
+    border-radius:2px;
+}
+#buttom img{
+    margin-top:90px;
+    width:747px;
+    height:110px;
+}
